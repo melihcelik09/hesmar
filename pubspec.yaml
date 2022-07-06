@@ -1,0 +1,43 @@
+name: hesmar
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.0.0
+  animated_splash_screen: ^1.2.0
+  material_color_gen: ^2.0.0
+  google_maps_flutter: ^2.1.3
+  location: ^4.3.0
+  flutter_riverpod: ^2.0.0-dev.7
+  dio: ^4.0.6
+  barcode_scan2: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.1
+
+flutter_icons:
+  image_path: "assets/images/hesmar-logo.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/category/
+    - assets/images/category/sut/
